@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+        <style>
+            @keyframes cambiaColor {
+			0% {
+				background-color: #3498db;
+			}
+			50% {
+				background-color: #e67e22;
+			}
+			100% {
+				background-color: #9b59b6;
+			}
+		}
+            
+
+            @keyframes slidein {
+                from {
+                    margin-left: 100%;
+                    width: 300%
+                }
+
+                to {
+                    margin-left: 0%;
+                    width: 100%;
+                }
+            }
+            
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background: -webkit-linear-gradient(70deg, #caf0f8, #48cae4, #00b4d8, #0077b6);   
+                animation: cambiaColor 5s ease infinite;        
+             } 
+             
+            header {
+                text-align: center;
+            }
+
+            table {
+                text-align: center;
+                border-color: black;
+                border-width: 2px;
+                padding: 20px;
+                border-collapse: collapse;
+                margin: auto;
+                
+            }
+
+            th {
+                border-style: groove;
+                border-width: 2.5px;
+                border-color: white;
+                padding: 15px; 
+                padding-left: 50px; 
+                padding-right: 50px;
+                
+            }
+            
+            th:hover{
+                background-color: #FFC857;
+                color: white;
+                border-color: white;
+            }
+
+            a {
+                font-style: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: none;
+                color: #C6CCD0;
+            }
+
+            #CAMBIO:hover, #CAMBIO:active {
+                color: white;
+                background-color: #015BA0;
+                border-color: white;
+            }
+
+            section{
+                margin: 80px;
+                animation-name: var;
+                animation-duration: infinite;
+            }
+
+            footer {
+                margin: 90px;
+            }
+            
+            p {
+                animation-duration: 3s;
+                animation-name: slidein;
+            }
+            h1{
+                animation-duration: 3s;
+                animation-name: slidein; 
+            }
+            div{
+                animation-name: var;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+            
+            
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h4>Página 1</h4>
+            <h1>DICCIONARIO.COM</h1>
+            <p>Bienvenidos a nuestra plataforma de Diccionario</p> 
+        </header>
+
+        <section>
+            <table>
+                <tr>
+                    <th id="CAMBIO"><a id="CAMBIO" href="letraA.html">A</a></th>
+                    <th id="CAMBIO"><a id="CAMBIO" href="letraB.html">B</a></th>
+                    <th id="CAMBIO"><a id="CAMBIO" href="letraC.html">C</a></th>
+                    <th id="CAMBIO"><a id="CAMBIO" href="letraD.html">D</a></th>
+                    <th id="CAMBIO"><a id="CAMBIO" href="letraE.html">E</a></th>
+                </tr>
+                <tr>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                    <th>I</th>
+                    <th>J</th>
+                </tr>
+                <tr>
+                    <th>K</th>
+                    <th>L</th>
+                    <th>N</th>
+                    <th>M</th>
+                    <th>O</th>
+                </tr>
+                <tr>
+                    <th>P</th>
+                    <th>Q</th>
+                    <th>R</th>
+                    <th>S</th>
+                    <th>T</th>
+                </tr>
+                <tr>
+                    <th>U</th>
+                    <th>V</th>
+                    <th>W</th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+                <tr style="border-style: none;" id="Z">
+                    <th style="border-style: none;"></th>
+                    <th style="border-style: none;"></th>
+                    <th>Z</th>
+                    <th style="border-style: none;"></th>
+                    <th style="border-style: none;"></th>
+                 </tr>
+                
+
+            </table>
+        </section>
+        <div>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo veniam nostrum asperiores explicabo expedita aut animi pariatur ea debitis, libero unde laboriosam facilis? Alias aspernatur, sapiente quidem qui esse quaerat?</p>
+        </div>
+
+        <footer>
+            <br>
+            <h5>ASIGNACIÓN #2 - HTML</h5>
+            <ul>
+                <li>Carlos Rodríguez</li>
+                <li>José Camarena</li>
+            </ul>
+        </footer>
+
+
+
+    </body>
+</html>
